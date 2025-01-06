@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant Temperature Converter</title>
+    <link rel="stylesheet" href="24.Temperature_change.css">
+</head>
+<body>
+    <form>
+        <h1>Temperature Change</h1>
+        <input type="number" id="textbox" value="0"><br><br>
+
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit" >Celsius ➡️ Fahrenheit</label><br>
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius" > Fahrenheit ➡️ Celsius </label><br>
+
+        <button id="submitbtn" onclick="convert(event)">Submit</button>
+        <p id="p1">Select the Type</p>
+        <script src="24.Temperature_change.js"></script>
+    </form>
+</body>
+</html>
